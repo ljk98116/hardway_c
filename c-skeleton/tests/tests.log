@@ -1,0 +1,15 @@
+[ERROR] (tests/ex29_tests.c:11: errno: None) USAGE: ex29 libex29.so function data
+[ERROR] (tests/ex29_tests.c:12: errno: None) USAGE: ex29 libex29.so function data
+DEBUG tests/ex29_tests.c:64: ----- RUNNING: ./tests/ex29_tests
+DEBUG tests/ex29_tests.c:56: 
+----- test_dlopen
+[ERROR] (tests/ex29_tests.c:24: errno: None) Failed to open the library to test.
+DEBUG tests/ex29_tests.c:64: ----- RUNNING: ./tests/ex29_tests
+DEBUG tests/ex29_tests.c:56: 
+----- test_dlopen
+DEBUG tests/ex29_tests.c:57: 
+----- test_functions
+DEBUG tests/ex29_tests.c:58: 
+----- test_failures
+DEBUG tests/ex29_tests.c:59: 
+----- test_dlclose
