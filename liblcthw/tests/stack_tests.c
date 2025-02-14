@@ -1,5 +1,7 @@
 #include "minunit.h"
-#include <lcthw/stack.h>
+//#include <lcthw/stack.h>
+#include <lcthw/darray_stack.h>
+
 #include <assert.h>
 
 static Stack *stack = NULL;

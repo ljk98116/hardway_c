@@ -23,7 +23,7 @@ void Queue_destroy(Queue *queue){
     free(queue);
 }
 
-void Queue_send(Queue *queue, const void *value){
+void Queue_send(Queue *queue, void *value){
     ListNode *node = (ListNode*)calloc(1, sizeof(ListNode));
     node->value = value;
     if(queue->head == NULL){

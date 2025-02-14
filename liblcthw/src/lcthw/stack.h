@@ -13,7 +13,7 @@ Stack *Stack_create(){
     return ret;
 }
 
-void Stack_push(Stack *stack, const void *value){
+void Stack_push(Stack *stack, void *value){
     ++stack->sz;
     ListNode *node = (ListNode*)malloc(sizeof(ListNode));
     node->value = value;

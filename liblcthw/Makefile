@@ -30,7 +30,7 @@ build:
 	@mkdir -p bin
 
 %_tests: %_tests.c
-	$(CC) -o $@ $< $(LIBS) -I src/ $(TARGET)
+	$(CC) $(CFLAGS) -o $@ $< $(LIBS) -I src/ $(TARGET)
 
 # The Unit Tests
 .PHONY: tests
